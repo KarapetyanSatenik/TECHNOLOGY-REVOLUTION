@@ -1,0 +1,387 @@
+* {
+    font-family: Ubuntu, sans-serif;
+}
+
+.nav-for-page {
+    width: 100%;
+    height: 5vh;
+    background-color: #ccc1c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-main {
+    width: 100%;
+    height: 130vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.first-main .first-main-first-div {
+    background-image: url(../photos/intror.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.first-main .first-main-second-div {
+    background-image: url(../photos/introbg.jpg);
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #292c2c;
+    padding-left: 20px;
+}
+
+.first-main .first-main-second-div p {
+    font-size: 20px;
+}
+
+.first-main .first-main-second-div h1 {
+    font-size: 55px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.first-main .first-main-second-div a {
+    padding: 2% 4%;
+    border: none;
+    background-color: #17cad0 !important;
+    color: white;
+}
+
+.first-main .first-main-second-div a:hover {
+    background-color: #259bca !important;
+}
+
+.second-main {
+    padding-top: 4%;
+    width: 100%;
+    height: 140vh;
+    position: relative;
+}
+
+.second-main .main-text-first {
+    position: absolute;
+    width: 33%;
+    height: 40%;
+    left: 8%;
+    z-index: 3;
+    top: 18%;
+}
+
+.second-main .main-text-first p {
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #292c2c;
+    padding-bottom: 5%;
+}
+
+.second-main .main-text-first span {
+    font-size: 18px;
+}
+
+.second-main .main-text-first h1 {
+    font-size: 55px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 100;
+}
+
+.second-main .main-text-first a {
+    padding: 3% 6%;
+    border: none;
+    background-color: #17cad0 !important;
+    color: white;
+}
+
+.second-main .main-text-first a:hover {
+    background-color: #a6c5d1 !important;
+}
+
+.second-main .first-photo {
+    position: absolute;
+    background-image: url(../photos/cellbg2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 50% !important;
+    width: 711px;
+    height: 711px;
+    right: 8%;
+}
+
+.second-main .second-photo {
+    position: absolute;
+    right: 12%;
+    width: 611px;
+    height: 611px;
+    background-position: 50% 50%;
+    border-radius: 50% !important;
+    background-image: url(../photos/robot2.jpg);
+    background-size: cover;
+    top: 10%;
+}
+
+.second-main .third-photo {
+    position: absolute;
+    background-image: url(../photos/2.jpg);
+    object-fit: cover;
+    width: 260px;
+    height: 450px;
+    background-size: cover;
+    top: 55%;
+}
+
+.first-section {
+    position: relative;
+    top: 95%;
+    width: 100%;
+    height: 110vh;
+}
+
+.first-section .first-section-first-photo {
+    position: absolute;
+    background-image: url(../photos/34.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 50% !important;
+    width: 480px;
+    height: 480px;
+    left: 13%;
+    z-index: 2;
+}
+
+.first-section .first-section-second-photo {
+    position: absolute;
+    background-image: url(../photos/cellbg2.jpg);
+    background-position: 50% 50%;
+    border-radius: 50% !important;
+    width: 350px;
+    height: 350px;
+    left: 8%;
+    top: 29%;
+}
+
+.first-section .first-section-text {
+    position: absolute;
+    width: 33%;
+    height: 40%;
+    right: 12%;
+    z-index: 3;
+    top: 16%;
+    font-family: Ubuntu, sans-serif;
+}
+
+.first-section .first-section-text p {
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #292c2c;
+    padding-bottom: 5%;
+}
+
+.first-section .first-section-text span {
+    font-size: 18px;
+}
+
+.first-section .first-section-text h1 {
+    font-size: 55px;
+    font-weight: 100;
+}
+
+.first-section .first-section-text a {
+    padding: 3% 6%;
+    border: none;
+    background-color: #17cad0 !important;
+    color: white;
+}
+
+.first-section .first-section-text a:hover {
+    background-color: #a6c5d1 !important;
+}
+
+.first-footer {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-footer div {
+    font-family: Ubuntu, sans-serif;
+    width: 25%;
+    height: 100%;
+}
+
+.first-footer div h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.first-footer div p {
+    font-size: 19px;
+}
+
+.second-section {
+    position: relative;
+    width: 100%;
+    height: 140vh;
+}
+
+.second-section .second-section-first-photo {
+    position: absolute;
+    background-image: url(../photos/46.jpg);
+    object-fit: cover;
+    background-size: cover;
+    width: 18%;
+    height: 55%;
+    right: 0%;
+}
+
+.second-section .second-section-second-photo {
+    position: absolute;
+    background-image: url(../photos/bg.jpg);
+    background-position: 50% 50%;
+    border-radius: 50% !important;
+    width: 570px;
+    height: 570px;
+    left: 8%;
+    top: 29%;
+}
+
+.second-section .second-section-third-photo {
+    position: absolute;
+    background-image: url(../photos/Untitled5.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 50% !important;
+    width: 500px;
+    height: 500px;
+    left: 13%;
+    top: 29%;
+    z-index: 2;
+}
+
+.second-section .second-section-text {
+    position: absolute;
+    width: 25%;
+    height: 40%;
+    right: 15%;
+    z-index: 3;
+    top: 40%;
+}
+
+.second-section .second-section-text p {
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #292c2c;
+    padding-bottom: 5%;
+}
+
+.second-section .second-section-text span {
+    font-size: 18px;
+}
+
+.second-section .second-section-text h1 {
+    font-size: 55px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 100;
+}
+
+.second-section .second-section-text a {
+    padding: 3% 6%;
+    border: none;
+    background-color: #17cad0 !important;
+    color: white;
+}
+
+.second-section .second-section-text a:hover {
+    background-color: #a6c5d1 !important;
+}
+
+.second-footer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #17cad0;
+    color: white;
+    padding: 5% 0%;
+}
+
+.second-footer div {
+    width: 15%;
+}
+
+.second-footer p {
+    font-style: italic;
+}
+
+.second-footer h2 {
+    font-size: 20px;
+}
+
+.third-footer {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/bg4.jpg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Ubuntu, sans-serif;
+}
+
+.third-footer h3 {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.third-footer div {
+    width: 50%;
+    font-size: 18px;
+}
+
+.fourth-footer {
+    width: 100%;
+    height: 44vh;
+    background-color: #17cad0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-footer div i {
+    color: white;
+    font-size: 25px;
+}
+
+.fourth-footer div i:hover {
+    font-size: 50px;
+}
+
+.fourth-footer p {
+    color: white;
+    font-size: 15px;
+}
+
+.fourth-footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+.fourth-footer p a:hover {
+    color: white;
+}
